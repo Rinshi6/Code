@@ -4,10 +4,10 @@ using ll = long long;
 using vvc = vector<vector<ll>>;
 
 void solve() {
-    ll n, a, b;
+    ll n, a, b,c=5;
     cin >> n >> a >> b;
     a--, b--; // Convert to 0-based indexing
-
+    c--;
     vvc graph(n);
     for (ll i = 0; i < n - 1; i++) {
         ll u, v;
