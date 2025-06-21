@@ -15,6 +15,6 @@ int main(){
         }
     }
     if(c%2) cout<<(c/2)+1<<endl;
-    else cout<<c/2<<endl;
+    else cout<<c<<" "<<c/2<<endl;
     }
 }
